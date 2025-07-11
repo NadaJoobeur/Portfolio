@@ -7,7 +7,7 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import facebook from '../../assets/facebook.svg'
-import Resume from '../../assets/CV_Nada_Joobeur.pdf'
+import Resume from '../../assets/Nada.pdf'
 
 export function Hero() {
   return (
@@ -56,13 +56,7 @@ export function Hero() {
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
-        <a
-          href="https://www.facebook.com/jbr.nada.2025"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={facebook} alt="facebook" />
-        </a></div>
+        </div>
         </ScrollAnimation>
       </div>
       <div className="hero-image">

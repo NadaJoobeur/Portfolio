@@ -27,14 +27,14 @@ export function Project() {
             <div className="body">
               <h3>EpilepTrack</h3>
               <p>
-               A platform that enables physicians to analyze patient EEG signals and predict current states and future seizure risks.    
+               A platform for AI-based EEG analysis and remote neurophysiology consultation to help reduce diagnostic delays in epilepsy care.    
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Python</li>
+                <li>React</li>
+                <li>Flask</li>
                 <li>EEG signal processing</li>
-                <li>CNN</li>
               </ul>
             </footer>
           </div>
@@ -53,10 +53,10 @@ export function Project() {
                 </div>
             </header>
             <div className="body">
-              <h3> MedicalVision</h3>
-              <p> Developed Medical Vision, a full-stack platform for brain lesion segmentation from FLAIR MRI using U-Net with Inception modules, integrating preprocessing, training, deployment, and model management </p>
+              <h3> MedVision</h3>
+              <p> MedVision is a web platform with AI tools for medical researchers. It combines tabular data and medical image analysis in one place. It automates preprocessing, model training (like 3D U-Net), and experiment tracking to speed up research and ensure reproducibility. </p>
             </div>
-            <footer> <ul className="tech-list"> <li>Flas</li> <li>MySQL</li> <li>react</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>Flask</li> <li>MySQL</li> <li>React</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -136,6 +136,34 @@ export function Project() {
                 <li>Python</li>
                 <li>Tashaphyne</li>
                 <li>scikit-learn</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/NadaJoobeur/CoreAssure" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+          
+              </div>
+            </header>
+            <div className="body">
+              <h3>Insurance Management</h3>
+              <p>This application is designed for insurance management, covering quotes, guarantees, contracts, payments, and claims.  
+                It offers a user-friendly and responsive interface to simplify insurance workflows and improve efficiency.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React Vite</li>
+                <li>Rest API</li>
+                <li>Node.JS</li>
+                <li>PostgreSQL</li>
               </ul>
             </footer>
           </div>

@@ -16,39 +16,47 @@ export const Container = styled.section`
     }
   }
 
-  .contacts{
+  .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem; /* un peu moins d’espace entre les blocs */
+  margin-top: 1.5rem;
+
+  div {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    place-items: center;
-    margin-top: 1.5rem;
-    div{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 50%;
-      max-width: 30rem;
-      gap: 2rem;
-      background-color: var(--green);
-      border-radius: 1.4rem;
-      padding: 1.6rem 2.8rem;
-      transition: background-color 0.25s;
-      img{
-        width: 4rem;
-      }
-      a{
-        color: var(--black);
-        font-weight: 500;
-      }
-      &:hover{
-        background-color: var(--pink);
-        a{
-          color: #FFF;
-        }
+    width: 50%;
+    max-width: 20rem; /* réduit la largeur max */
+    gap: 1rem; /* réduit l’espace entre icône et texte */
+    background-color: var(--green);
+    border-radius: 1.4rem;
+    padding: 1rem 1.8rem; /* padding réduit */
+    transition: background-color 0.25s;
+
+    img {
+      width: 2.8rem; /* icône plus petite */
+      height: auto;
+    }
+
+    a {
+      color: var(--black);
+      font-weight: 500;
+      font-size: 1.4rem; /* taille de police un peu réduite */
+      text-decoration: none;
+    }
+
+    &:hover {
+      background-color: var(--pink);
+
+      a {
+        color: #FFF;
       }
     }
   }
+}
+
 
 
   @media(max-width: 960px){
